@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strength Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Password Strength Analyzer</h1>
+
+    <input type="password"
+           id="password"
+           placeholder="Enter Password">
+
+    <button onclick="checkPassword()">
+        Analyze Password
+    </button>
+
+    <div id="result"></div>
+
+    <div id="suggestion"></div>
+
+    <div class="info">
+        <h2>Password Security</h2>
+
+        <p>
+            Strong passwords protect accounts from hacking,
+            brute force attacks and unauthorized access.
+        </p>
+
+        <h2>Basic Cryptography</h2>
+
+        <p>
+            Cryptography is the science of protecting
+            information using encryption and decryption.
+            Passwords are usually stored as hashes instead
+            of plain text.
+        </p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
